@@ -29,5 +29,3 @@ python main.py
 Running this command will execute the script and display country data in a tabular format.
 
 ---
-
-Feel free to adjust the sections or add more details based on your project's specific needs!
