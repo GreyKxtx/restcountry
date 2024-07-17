@@ -1,20 +1,23 @@
-
 # Project Description
 
 This project demonstrates interacting with an API to fetch country information and displaying it in a tabular format.
 
 ## Dependencies
 
-To run the project, you need to install the following dependencies:
+To run the project, you can install the required dependencies listed in `requirements.txt`. This includes:
+
 - `requests`: for making HTTP requests to the API
 - `prettytable`: for creating visually appealing tables when displaying data
 
-You can install these dependencies using the following commands:
+## Installation
+
+You can install the dependencies using `pip` and the provided `requirements.txt` file:
 
 ```bash
-pip install requests
-pip install prettytable
+pip install -r requirements.txt
 ```
+
+This command will install the specific versions of `requests` and `prettytable` as listed in `requirements.txt`.
 
 ## Usage
 
@@ -22,10 +25,8 @@ The project includes the `CountryInfo` class, which retrieves country data from 
 
 Usage example:
 
-```python
+```bash
 python main.py
 ```
 
 Running this command will execute the script and display country data in a tabular format.
-
----
