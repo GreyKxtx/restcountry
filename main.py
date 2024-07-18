@@ -11,7 +11,7 @@ class CountryInfo:
 
     def fetch_data(self):
         params = {
-            'fields': 'name,capital,flags'  # Запрашиваем только нужные поля
+            'fields': 'name,capital,flags' 
         }
         try:
             response = requests.get(self.api_url, params=params)
